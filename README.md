@@ -88,6 +88,3 @@ git checkout 分支名
 
 <a href="./issue.md" target="_blank">点击查看常见问题</a>
 
-### 更多精彩内容
-
-如果喜欢本课程可以关注更多<a href="./note.md" target="_blank">优秀内容</a>，都是多年经验的积累和总结，欢迎大家和我讨论。
