@@ -1,4 +1,4 @@
-<template>
+<template lang="html">
   <section :class="cname"> <!--自定义样式cname，因为swiper.css已经写好了默认样式，所以不必写。-->
     <swiper :options="options" :not-next-tick="options.notNextTick"> <!--官方要求使用options来传参-->
       <swiper-slide v-for="item in items" :key="item.href">
@@ -6,7 +6,7 @@
           <img :src="item.src" alt="">
         </router-link>
       </swiper-slide>
-      <div class="swiper-pagination" v-if="options.pagination"/>
+      <div class="swiper-pagination" v-if="options.pagination" slot="pagination"/>
     </swiper>
   </section>
 </template>
@@ -16,9 +16,13 @@ import { swiper, swiperSlide } from "vue-awesome-swiper"
 export default {
   components: {
     swiper,
-    swiperSlider,
+    swiperSlide,
   },
   props: {
+    cname: {
+      type: String,
+      default: "",
+    },
     options: {
       type: Object,
       default () { //es6写法
@@ -33,15 +37,15 @@ export default {
       }
     },
     items: {
-      type: Object,
+      type: Array,
       default () {
         return []
       },
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="css">
-  @import "~swiper/dist/css/swiper.css"
+  @import "~swiper/dist/css/swiper.css";
 </style>
