@@ -3,6 +3,8 @@
         <Heador></Heador>
         <Slider></Slider>
         <Daily></Daily>
+        <In></In>
+        <More></More>
         <Feeter cname="mfooter"></Feeter>
         <Navbar></Navbar>
     </div>
@@ -14,6 +16,8 @@ import Feeter from "../public/footer"; //y
 import Navbar from "../public/navbar";
 import Slider from "./rslider";
 import Daily from "./daily";
+import In from "./in";
+import More from "./more";
 
 export default {
   components: {
@@ -22,6 +26,8 @@ export default {
     Feeter,
     Navbar,
     Daily,
+    In,
+    More,
   }
 };
 </script>
