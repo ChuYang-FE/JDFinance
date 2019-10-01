@@ -6,6 +6,7 @@ import Money from "../money/index.vue"
 import Ious from "../ious/index.vue"
 import Raise from "../raise/index.vue"
 import Login from "../login/index.vue"
+import Download from "../special/download.vue"
 import "../../css/reset.scss"
 
 Vue.use(Router)
@@ -35,5 +36,17 @@ export default new Router({
     path: "/login",
     name: "login",
     component: Login,
+  },
+  {
+    path: "/download",
+    name: "download",
+    component: Download,
   }],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+     return savedPosition
+    } else {
+    return { x: 0, y: 0 }
+    }
+    },
 })

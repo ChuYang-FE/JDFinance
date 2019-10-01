@@ -52,6 +52,7 @@ export default {
 <style lang="scss">
   .product-slider{
     .swiper-container{
+      z-index: 0;
       box-sizing: border-box;
       padding: 0 24px;
       .swiper-slide{
