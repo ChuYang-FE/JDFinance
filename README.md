@@ -8,13 +8,37 @@
 
 请使用手机扫码体验（建议使用夸克浏览器、chrome浏览器），微信可能需要多刷新一两次。
 
+<hr>
+
+**如果实在无法访问，可查看下面gif图**
+
+<hr>
+
+**整体预览👇**
+
 <img src="./static/整体预览.gif" alt="整体预览" >
+
+<hr>
+
+**首页👇**
 
 <img src="./static/首页.gif" alt="首页" >
 
+<hr>
+
+**理财👇**
+
 <img src="./static/理财.gif" alt="理财" >
 
+<hr>
+
+**白条👇**
+
 <img src="./static/白条.gif" alt="白条" >
+
+<hr>
+
+**众筹👇**
 
 <img src="./static/众筹.gif" alt="众筹" >
 
