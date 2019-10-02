@@ -8,4 +8,16 @@
 
 请使用手机扫码体验（建议使用夸克浏览器、chrome浏览器），微信可能需要多刷新一两次。
 
-**——谭楚杨 2019.10.1**
+<img src="./static/整体预览.gif" alt="整体预览" >
+
+<img src="./static/首页.gif" alt="首页" >
+
+<img src="./static/理财.gif" alt="理财" >
+
+<img src="./static/白条.gif" alt="白条" >
+
+<img src="./static/众筹.gif" alt="众筹" >
+
+**——Young丶TCY 2019.10.1**
+
+
